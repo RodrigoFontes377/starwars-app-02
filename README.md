@@ -1,3 +1,6 @@
+## 📦 Instalação
+
+```bash
 # Clone o projeto
 git clone https://github.com/RodrigoFontes377/starwars-app-02.git
 
@@ -9,7 +12,10 @@ pnpm install
 # ou
 npm install
 
-# Rode o projeto (também funciona com pnpm ou npm)
+# Rode o projeto localmente (a porta será exibida no terminal, geralmente http://localhost:5173)
 pnpm run dev
 # ou
 npm run dev
+
+# ⚠️ Observação:
+# A API utilizada (https://swapi.dev) pode estar lenta em alguns horários do dia, o que pode impactar o tempo de carregamento da aplicação.
